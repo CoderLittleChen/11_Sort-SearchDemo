@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01二分查找", "01二分查找\01二分查找.csproj", "{074DCF0B-3666-4F0A-9EFD-F7D6D459C793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02快速排序", "02快速排序\02快速排序.csproj", "{655B2D10-D643-494D-9CB9-A7F641C32DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03冒泡排序", "03冒泡排序\03冒泡排序.csproj", "{AC775644-8222-4BC3-A903-6A2FBBC44584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04数组去重", "04数组去重\04数组去重.csproj", "{28A4C9F4-71C7-4497-837D-71F59807B5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05位运算", "05位运算\05位运算.csproj", "{8B865257-A382-4DB2-83AA-D1C72813DB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06手写单例模式", "06手写单例模式\06手写单例模式.csproj", "{427DC8DE-4E64-4524-87EF-6C7348036543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{074DCF0B-3666-4F0A-9EFD-F7D6D459C793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074DCF0B-3666-4F0A-9EFD-F7D6D459C793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074DCF0B-3666-4F0A-9EFD-F7D6D459C793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074DCF0B-3666-4F0A-9EFD-F7D6D459C793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{655B2D10-D643-494D-9CB9-A7F641C32DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655B2D10-D643-494D-9CB9-A7F641C32DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655B2D10-D643-494D-9CB9-A7F641C32DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655B2D10-D643-494D-9CB9-A7F641C32DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC775644-8222-4BC3-A903-6A2FBBC44584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC775644-8222-4BC3-A903-6A2FBBC44584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC775644-8222-4BC3-A903-6A2FBBC44584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC775644-8222-4BC3-A903-6A2FBBC44584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A4C9F4-71C7-4497-837D-71F59807B5C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A4C9F4-71C7-4497-837D-71F59807B5C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A4C9F4-71C7-4497-837D-71F59807B5C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A4C9F4-71C7-4497-837D-71F59807B5C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B865257-A382-4DB2-83AA-D1C72813DB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B865257-A382-4DB2-83AA-D1C72813DB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B865257-A382-4DB2-83AA-D1C72813DB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B865257-A382-4DB2-83AA-D1C72813DB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{427DC8DE-4E64-4524-87EF-6C7348036543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{427DC8DE-4E64-4524-87EF-6C7348036543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{427DC8DE-4E64-4524-87EF-6C7348036543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{427DC8DE-4E64-4524-87EF-6C7348036543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48871E6A-4883-462D-A52A-673ACC277181}
+	EndGlobalSection
+EndGlobal
