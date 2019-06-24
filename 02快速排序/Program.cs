@@ -17,6 +17,7 @@ namespace _02快速排序
             //3、再对左右区间重复第二步  直到区间中只有一个数
             //int[] nums = { 11, 3, 5, 66, 4, 3, 11, 9, 200, 133, 46, 78, 34, 15 };
             int[] nums = { 6, 1, 2, 7, 9, 3, 4, 5, 10, 8 };
+            //这里low值和high值  分别为最小索引和最大索引
             QuickSort(nums, 0, nums.Length - 1);
             for (int i = 0; i < nums.Length; i++)
             {
@@ -41,6 +42,7 @@ namespace _02快速排序
             }
         }
 
+        #region  可正确实现快速排序
         /// <summary>
         /// 可正确实现
         /// </summary>
@@ -83,9 +85,10 @@ namespace _02快速排序
         //    return i;
         //}
 
+        #endregion
 
-
-        //这样写也正确
+        
+        //这样写也正确   代码更加精简
         private static int Partition(int[] arr, int low, int high)
         {
             int i = low, j = high;
