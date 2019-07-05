@@ -10,7 +10,7 @@ namespace _04数组去重
     {
         static void Main(string[] args)
         {
-            //可以用foreach遍历的对象需要继承IEnumerable接口以及
+            //可以用foreach遍历的对象需要继承IEnumerable接口以及  继承IEnumerable接口以及实现GetEnumerator()方法
             //实现GetEnumerator    Serializable  
 
             //这里想要去重的话  可以通过分组来实现
